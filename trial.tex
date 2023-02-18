@@ -6,7 +6,7 @@
 %------------------------
 
 \documentclass[letterpaper,11pt]{article}
-
+\usepackage{paralist}
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
@@ -91,7 +91,12 @@
 % Custom commands
 \newcommand{\resumeItem}[1]{
   \item\small{
-    {#1 \vspace{-1pt}}
+      {#1 \vspace{-1pt}}
+    }
+}
+\newcommand{\resumeAchievementItem}[1]{
+  \item\small{
+    {#1 \vspace{1pt}}
   }
 }
 
@@ -126,6 +131,8 @@
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+\newcommand{\resumeAchievementItemListStart}{\begin{compactitem}}
+\newcommand{\resumeAchievementItemListEnd}{\end{compactitem}\vspace{0pt}}
 
 \color{text-grey}
 
@@ -137,106 +144,135 @@
 
 %----------HEADING----------
 \begin{center}
-    \textbf{\Huge Harshibar} \\ \vspace{5pt}
-    \small \faPhone* \texttt{555.555.5555} \hspace{1pt} $|$
-    \hspace{1pt} \faEnvelope \hspace{2pt} \texttt{hello@email.com} \hspace{1pt} $|$ 
-    \hspace{1pt} \faYoutube \hspace{2pt} \texttt{harshibar} \hspace{1pt} $|$
-    \hspace{1pt} \faMapMarker* \hspace{2pt}\texttt{U.S. Citizen}
+    \textbf{\Huge Pranav Pratap Singh} \\ \vspace{5pt}
+    \href{https://github.com/Pranav108}{\myuline {\faGithub\  Pranav108}} \hspace{1pt} $|$
+    \href{https://linkedin.com/in/pranav-ps}{\myuline {\faLinkedin\  pranav-ps}} \hspace{1pt} $|$
+    \href{mailto:pranav.nit.vns@gmail.com}{\myuline {\faEnvelope\ pranav.nit.vns}} \hspace{1pt} $|$
+    \small \faPhone* \texttt{+917897570695} \hspace{1pt} $|$
+    \faMapMarker* \hspace{2pt}\texttt{Shillong,Meghalaya}
     \\ \vspace{-3pt}
 \end{center}
 
-%-----------EXPERIENCE-----------
-\section{EXPERIENCE}
-  \resumeSubHeadingListStart
-
-    \resumeSubheading
-      {YouTube}{Aug. 2019 -- Present}
-      {Creator (\href{https://www.youtube.com/c/harshibar}{\myuline {@harshibar}})}{San Francisco, CA}
-      \resumeItemListStart
-        \resumeItem{Grew channel to \textbf{60k subscribers in 1.5 years}; created 80+ videos on tech and productivity}
-        \resumeItem{Conducted A/B testing on titles and thumbnails; \textbf{increased video impressions by 2.5M} in 3 months}
-         \resumeItem{Designed a Notion workflow to streamline video production and roadmapping; boosted productivity by 20\%}
-        \resumeItem{\textbf{Partnered with brands like Skillshare and Squarespace} to expand their outreach via sponsorships}
-        \resumeItem{\textbf{Highlights}:
-            \href{https://www.youtube.com/watch?v=HhWUjp5pD0g}{\myuline {The Problem with Productivity Apps}}, \href{https://www.youtube.com/watch?v=ms4cWMsOITs}{\myuline {Obsidian App Review}},
-            \href{https://www.youtube.com/watch?v=PkDbkyIR44w}{\myuline {Not-So-Minimal Desk Setup}}}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Google Verily}{Aug. 2018 -- Sept. 2019}
-      {Software Engineer}{San Francisco, CA}
-      \resumeItemListStart
-        \resumeItem{\textbf{Led front-end development} of a dashboard to process 50k blood samples and detect early-stage cancer}
-        \resumeItem{Rebuilt a Quality Control product with input from 20 cross-functional stakeholders, \textbf{saving \$1M annually}}
-        \resumeItem{Spearheaded product development of a new lab workflow tool, leading to a 40\% increase in efficiency; \\ shadowed 10 core users, iterated on design docs, and implemented the solution with one engineer}
-
-    \resumeItemListEnd
-
-    \resumeSubheading
-      {Amazon}{May 2017 -- Aug. 2017}
-      {Software Engineering Intern}{Seattle, WA}
-      \resumeItemListStart
-        \resumeItem{Worked on the Search Customer Experience Team; \textbf{received a return offer} for a full-time position}
-        \resumeItem{\textbf{Shipped a new feature to 2M+ users} to improve the search experience for movie series-related queries}
-        \resumeItem{Built a back-end database service in Java and implemented a front-end UI to support future changes}
-      \resumeItemListEnd
-
-  \resumeSubHeadingListEnd
-
-
-%-----------PROJECTS-----------
-
-\section{PROJECTS}
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{Hyku Consulting}} {Sept. 2019 -- Mar. 2021}
-          \resumeItemListStart
-            \resumeItem{Mentored 15 students towards acceptance at top US boarding schools; achieved \textbf{100\% success rate}}
-            \resumeItem{Designed a \textbf{collaborative learning ecosystem} for students and parents with Trello, Miro, and Google Suite}
-          \resumeItemListEnd
-          
-        \resumeProjectHeading
-          {\textbf{Minimal Icon Pack}}{Sept. 2020 -- Nov. 2020}
-          \resumeItemListStart
-            \resumeItem{Designed and released 100+ minimal iOS and Android icons from scratch using Procreate and Figma}
-            \resumeItem{Marketed the product and design process on {\href{https://www.youtube.com/watch?v=Ju32r7QJCzk}{\myuline {YouTube}}}; accumulated over \textbf{\$250 in sales} on {\href{https://gumroad.com/l/icons-by-harshibar}{\myuline {Gumroad}}}}
-          \resumeItemListEnd
-          
-      \resumeProjectHeading
-         {\textbf{CommonIntern}}{Sept. 2019 -- May 2020}
-          \resumeItemListStart
-            \resumeItem{Built a Python script to automatically apply to jobs on Glassdoor using BeautifulSoup and Selenium}
-            \resumeItem{\textbf{500 stars on \href{https://github.com/harshibar/common-intern}{\myuline {GitHub}}}; featured on {\href{https://hackaday.com/2020/05/30/job-application-script-automates-the-boring-stuff-with-python}{\myuline {Hackaday}}}; made the front page of {\href {https://www.reddit.com/r/Python/comments/gpaegj/i_was_tired_of_opening_100s_of_tabs_for/?utm_source=share}{\myuline {r/python}}} and {\href {https://www.reddit.com/r/programming/comments/dcmbzx/i_was_tired_of_opening_100s_of_tabs_for/}{\myuline {r/programming}}}}
-          \resumeItemListEnd
-          
-    \resumeSubHeadingListEnd
-
-
-
 %-----------EDUCATION-----------
 \section {EDUCATION}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Wellesley College}{Aug. 2014 -- May 2018}
-      {Bachelor of Arts in Computer Science and Pre-Med}{Wellesley, MA}
-      	\resumeItemListStart
-    	\resumeItem {\textbf{Coursework}: Data Structures, Algorithms, Databases, Computer Systems, Machine Learning}
-        \resumeItem 
-            {\textbf{Research}: MIT Graybiel Lab (published author), MIT Media Lab (analyzed urban microbe spread)}
-        \resumeItemListEnd
-  \resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+\resumeSubheading
+{National Institute of Technology, Meghalaya}{Shillong, Meghalaya}
+{Bachelor of Technology: Computer Science and Engineering}{8.24/10  $|$ 2019 - 2023}
+\resumeItemListStart
+\resumeItem {\textbf{Coursework}: Data Structures, Algorithms, Databases, Computer Networks, Operating System}
+\resumeItemListEnd
+\resumeSubheading
+{Central Hindu Boys School}{Varanasi, U.P.}
+{Higher Secondary School Certificate: CBSE}{86.2 \%  $|$ 2017 - 2019}
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+
+\section{WORK EXPERIENCE}
+
+\resumeSubHeadingListStart
+\resumeSubheading
+{Navgurukul}{Remote}
+{\href{https://drive.google.com/file/d/1uaTvnULvjRZBFuD6fLY0HUVGYkD4u1fJ/}{{Backend Developer Intern}}}{Nov,2022 -- Feb,2023}
+\resumeItemListStart
+\resumeItem{Grew channel to \textbf{60k subscribers in 1.5 years}; created 80+ videos on tech and productivity}
+\resumeItem{Conducted A/B testing on titles and thumbnails; \textbf{increased video impressions by 2.5M} in 3 months}
+\resumeItem{Designed a Notion workflow to streamline video production and roadmapping; boosted productivity by 20\%}
+\resumeItem{\textbf{Partnered with brands like Skillshare and Squarespace} to expand their outreach via sponsorships}
+\resumeItem{\textbf{Highlights}:
+    \href{https://www.youtube.com/watch?v=HhWUjp5pD0g}{\myuline {The Problem with Productivity Apps}}, \href{https://www.youtube.com/watch?v=ms4cWMsOITs}{\myuline {Obsidian App Review}},
+    \href{https://www.youtube.com/watch?v=PkDbkyIR44w}{\myuline {Not-So-Minimal Desk Setup}}}
+\resumeItemListEnd
+
+\resumeSubheading
+{Navgurukul}{Pune , Maharastra}
+{\href{https://www.codeindiafellowship.org/}{{Code India Fellowship}}}{Jan,2022 -- Mar. 2022}
+\resumeItemListStart
+\resumeItem{\textbf{Led front-end development} of a dashboard to process 50k blood samples and detect early-stage cancer}
+\resumeItem{Rebuilt a Quality Control product with input from 20 cross-functional stakeholders, \textbf{saving \$1M annually}}
+\resumeItem{Spearheaded product development of a new lab workflow tool, leading to a 40\% increase in efficiency; \\ shadowed 10 core users, iterated on design docs, and implemented the solution with one engineer}
+
+\resumeItemListEnd
+
+\resumeSubheading
+{Coding Club NITM}{Shillong, Meghalaya}
+{App development Head}{Oct,2020 -- Present}
+\resumeItemListStart
+\resumeItem{Worked on the Search Customer Experience Team; \textbf{received a return offer} for a full-time position}
+\resumeItem{\textbf{Shipped a new feature to 2M+ users} to improve the search experience for movie series-related queries}
+\resumeItem{Built a back-end database service in Java and implemented a front-end UI to support future changes}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+%-----------PROJECTS-----------
+% \section{Personal Projects}
+
+% \projectHeading{Text-Utils React App} {https://github.com/Pranav108/text_utils}{}
+% \begin{bullets}
+%     \item A Text Formatting Web Application with functionalities for changing case, removing punctuation, numbers, extra spaces etc. \textbf{HTML5, CSS3} and \textbf{ReactJS} have been used to develop this application.
+%     \item The application is easy to use and support both light and dark themes.
+% \end{bullets}
+% \sectionsep
+
+% \projectHeading{Mousam App} {https://github.com/Pranav108/mousam}{}
+% \begin{bullets}
+%     \item A Mobile Application that tells the user the weather of their current city location or any other location that the user may want to know.
+%     \item \textbf{Flutter} and \textbf{Dart} have been used to develop this application and has a user-friendly interface.
+% \end{bullets}
+% \sectionsep
+
+% \projectHeading{NaTours} {https://github.com/Pranav108/natours_node}{}
+% \begin{bullets}
+%     \item An awesome Tour Booking Web Application that makes use of the \textbf{Model View Control (MVC)} architecture, \textbf{Create, Read, Update and Delete (CRUD) operations} and \textbf{Modern User Authentication} techniques.
+%     \item  \textbf{NodeJS, Express, Mongoose, MongoDB, JWT, Postman, Mailtrap} and \textbf{Heroku} have been used to develop this application.
+% \end{bullets}
+% \sectionsep
+% ##############
+\section{PROJECTS}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{\href{https://github.com/Pranav108/text_utils}{\myuline {Text-Utils React App}}}} {Sep. 2021 -- Nov. 2021}
+\resumeItemListStart
+\resumeItem{Mentored 15 students towards acceptance at top US boarding schools; achieved \textbf{100\% success rate}}
+\resumeItem{Designed a \textbf{collaborative learning ecosystem} for students and parents with Trello, Miro, and Google Suite}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{\href{https://github.com/Pranav108/mousam}{\myuline {Mousam App}}}}{Dec. 2020 -- Jan. 2021}
+\resumeItemListStart
+\resumeItem{Designed and released 100+ minimal iOS and Android icons from scratch using Procreate and Figma}
+\resumeItem{Marketed the product and design process on {\href{https://www.youtube.com/watch?v=Ju32r7QJCzk}{\myuline {YouTube}}}; accumulated over \textbf{\$250 in sales} on {\href{https://gumroad.com/l/icons-by-harshibar}{\myuline {Gumroad}}}}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{\href{https://github.com/Pranav108/natours_node}{\myuline {Natours}}}}{Mar. 2022 -- Present}
+\resumeItemListStart
+\resumeItem{Built a Python script to automatically apply to jobs on Glassdoor using BeautifulSoup and Selenium}
+\resumeItem{\textbf{500 stars on \href{https://github.com/harshibar/common-intern}{\myuline {GitHub}}}; featured on {\href{https://hackaday.com/2020/05/30/job-application-script-automates-the-boring-stuff-with-python}{\myuline {Hackaday}}}; made the front page of {\href {https://www.reddit.com/r/Python/comments/gpaegj/i_was_tired_of_opening_100s_of_tabs_for/?utm_source=share}{\myuline {r/python}}} and {\href {https://www.reddit.com/r/programming/comments/dcmbzx/i_was_tired_of_opening_100s_of_tabs_for/}{\myuline {r/programming}}}}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
 
 
-%
 %-----------PROGRAMMING SKILLS-----------
 \section{SKILLS}
- \begin{itemize}[leftmargin=0in, label={}]
+\begin{itemize}[leftmargin=0in, label={}]
     \small{\item{
-     \textbf{Languages} {: Python, JavaScript (React.js), HTML/CSS, SQL (PostgreSQL, MySQL)}\vspace{2pt} \\
-     \textbf{Tools}     {: Figma, Notion, Jira, Trello, Miro, Google Analytics, GitHub, DaVinci Resolve, OBS}
-    }}
- \end{itemize}
+                    \textbf{Languages} {: Python, JavaScript (React.js), HTML/CSS, SQL (PostgreSQL, MySQL)}\vspace{2pt} \\
+                    \textbf{Tools}     {: Figma, Notion, Jira, Trello, Miro, Google Analytics, GitHub, DaVinci Resolve, OBS}
+              }}
+\end{itemize}
 
+%-----------------Achievements----------------------
+\section{ACHIEVEMENTS}
+\resumeAchievementItemListStart
+\resumeAchievementItem{Solved 700+ problems on \href{https://leetcode.com/BEN__10}{\myuline{leetcode}} and have a \textbf{1600+ rating} on the platform.}
+\resumeAchievementItem{Contributed to various Open Source projects on GitHub.}
+\resumeAchievementItem{Advanced to round 1 in \href{https://drive.google.com/file/d/1TYd3GlCbRIwV59Vou5PUxEROjsCas0BK/view}{\myuline{Google Code Jam 2022}}.}
+\resumeAchievementItem{Secured rank of \textbf{227/11000} in \href{https://drive.google.com/file/d/1TYd3GlCbRIwV59Vou5PUxEROjsCas0BK/view}{\myuline{Accio-Wars}} Coding Contest.}
+\resumeAchievementItem{Secured 2nd and 3rd positions in 2 events in Cognitia (Technican fest - NITM).}
+\resumeAchievementItemListEnd
 
 %-------------------------------------------
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.18)  18 FEB 2023 17:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.18)  18 FEB 2023 19:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -22,6 +22,13 @@ File: size11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
+) (c:/texlive/2022/texmf-dist/tex/latex/paralist/paralist.sty
+Package: paralist 2017/01/22 v2.7 Extended list environments
+\pltopsep=\skip50
+\plpartopsep=\skip51
+\plitemsep=\skip52
+\plparsep=\skip53
+\pl@lab=\toks16
 ) (c:/texlive/2022/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup4
@@ -29,15 +36,15 @@ LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 ) (c:/texlive/2022/texmf-dist/tex/latex/preprint/fullpage.sty
 Package: fullpage 1999/02/23 1.1 (PWD)
-\FP@margin=\skip50
+\FP@margin=\skip54
 ) (c:/texlive/2022/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \ttl@box=\box51
-\beforetitleunit=\skip51
-\aftertitleunit=\skip52
+\beforetitleunit=\skip55
+\aftertitleunit=\skip56
 \ttl@plus=\dimen141
 \ttl@minus=\dimen142
-\ttl@toksa=\toks16
+\ttl@toksa=\toks17
 \titlewidth=\dimen143
 \titlewidthlast=\dimen144
 \titlewidthfirst=\dimen145
@@ -55,15 +62,15 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ) (c:/texlive/2022/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (c:/texlive/2022/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2022-07-02 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks17
-\verbatim@line=\toks18
+\every@verbatim=\toks18
+\verbatim@line=\toks19
 \verbatim@in@stream=\read2
 ) (c:/texlive/2022/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\enitkv@toks@=\toks19
-\labelindent=\skip53
+\enitkv@toks@=\toks20
+\labelindent=\skip57
 \enit@outerparindent=\dimen146
-\enit@toks=\toks20
+\enit@toks=\toks21
 \enit@inbox=\box52
 \enit@count@id=\count193
 \enitdp@description=\count194
@@ -83,7 +90,7 @@ Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 ) (c:/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks21
+\KV@toks@=\toks22
 ) (c:/texlive/2022/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ) (c:/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
@@ -178,18 +185,18 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
-\Hy@SectionHShift=\skip54
+\Hy@SectionHShift=\skip58
 ) (c:/texlive/2022/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
-\f@nch@headwidth=\skip55
-\f@nch@O@elh=\skip56
-\f@nch@O@erh=\skip57
-\f@nch@O@olh=\skip58
-\f@nch@O@orh=\skip59
-\f@nch@O@elf=\skip60
-\f@nch@O@erf=\skip61
-\f@nch@O@olf=\skip62
-\f@nch@O@orf=\skip63
+\f@nch@headwidth=\skip59
+\f@nch@O@elh=\skip60
+\f@nch@O@erh=\skip61
+\f@nch@O@olh=\skip62
+\f@nch@O@orh=\skip63
+\f@nch@O@elf=\skip64
+\f@nch@O@erf=\skip65
+\f@nch@O@olf=\skip66
+\f@nch@O@orf=\skip67
 ) (c:/texlive/2022/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2023/02/13 3.86 The Babel package
 \babel@savecnt=\count272
@@ -216,9 +223,9 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen152
 \ar@mcellbox=\box53
 \extrarowheight=\dimen153
-\NC@list=\toks22
-\extratabsurround=\skip64
-\backup@length=\skip65
+\NC@list=\toks23
+\extratabsurround=\skip68
+\backup@length=\skip69
 \ar@cellbox=\box54
 )
 \TX@col@width=\dimen154
@@ -227,7 +234,7 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \TX@target=\dimen157
 \TX@delta=\dimen158
 \TX@cols=\count274
-\TX@ftn=\toks23
+\TX@ftn=\toks24
 ) (c:/texlive/2022/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty (c:/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2023-02-07 L3 programming layer (loader) 
  (c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -251,8 +258,8 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 ) (c:/texlive/2022/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
  (c:/texlive/2022/texmf-dist/tex/generic/xkeyval/xkeyval.tex (c:/texlive/2022/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks24
-\XKV@tempa@toks=\toks25
+\XKV@toks=\toks25
+\XKV@tempa@toks=\toks26
 )
 \XKV@depth=\count276
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -277,7 +284,7 @@ Package: contour 2004/11/18 v2.14 Print contoured text (HH, MH)
  (c:/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-\con@length=\skip66
+\con@length=\skip70
 
 Loading configuration file `contour.cfg'.
 (c:/texlive/2022/texmf-dist/tex/latex/contour/contour.cfg
@@ -289,8 +296,8 @@ File: pdftex.cnt 2004/11/18 v2.14 Print contoured text (HH, MH)
 )) (c:/texlive/2022/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box56
 \UL@hyphenbox=\box57
-\UL@skip=\skip67
-\UL@hook=\toks26
+\UL@skip=\skip71
+\UL@hook=\toks27
 \UL@height=\dimen159
 \UL@pe=\count277
 \UL@pixel=\dimen160
@@ -304,89 +311,95 @@ Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+qhv on input line 112.
  (c:/texlive/2022/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
-))
-No file trial.aux.
+)) (./trial.aux)
 \openout1 = `trial.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-(c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+ (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count278
 \scratchdimen=\dimen162
 \scratchbox=\box59
 \nofMPsegments=\count279
 \nofMParguments=\count280
-\everyMPshowfont=\toks27
+\everyMPshowfont=\toks28
 \MPscratchCnt=\count281
 \MPscratchDim=\dimen163
 \MPnumerator=\count282
 \makeMPintoPDFobject=\count283
-\everyMPtoPDFconversion=\toks28
+\everyMPtoPDFconversion=\toks29
 )
-Package hyperref Info: Link coloring OFF on input line 136.
+Package hyperref Info: Link coloring OFF on input line 143.
+ (./trial.out) (./trial.out)
 \@outlinefile=\write3
 \openout3 = `trial.out'.
 
 \c@mv@tabular=\count284
 \c@mv@boldtabular=\count285
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 141.
- (c:/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
-LaTeX Font Info:    Trying to load font information for T1+FiraMono-TLF on input line 141.
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 148.
+ (c:/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
+LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10.95> not available
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 148.
+
+contour: Using 16 copies for `\faGithub \ Pranav108' on input line 148.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 148.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 148.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 148.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 148.
+(c:/texlive/2022/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+contour: Using 16 copies for `\faLinkedin \ pranav-ps' on input line 149.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 150.
+(c:/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
+contour: Using 16 copies for `\faEnvelope \ pranav.nit.vns' on input line 150.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 151.
+(c:/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
+LaTeX Font Info:    Trying to load font information for T1+FiraMono-TLF on input line 151.
  (c:/texlive/2022/texmf-dist/tex/latex/fira/T1FiraMono-TLF.fd
 File: T1FiraMono-TLF.fd 2019/10/10 (autoinst) Font definitions for T1/FiraMono-TLF.
 )
 LaTeX Font Info:    Font shape `T1/FiraMono-TLF/m/n' in size <10> not available
-(Font)              Font shape `T1/FiraMono-TLF/regular/n' tried instead on input line 141.
+(Font)              Font shape `T1/FiraMono-TLF/regular/n' tried instead on input line 151.
 LaTeX Font Info:    Font shape `T1/FiraMono-TLF/regular/n' will be
-(Font)              scaled to size 8.99994pt on input line 141.
+(Font)              scaled to size 8.99994pt on input line 151.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 141.
+(Font)              <7> on input line 151.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 141.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 141.
- (c:/texlive/2022/texmf-dist/tex/latex/base/ulasy.fd
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 142.
- (c:/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands1 on input line 143.
- (c:/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands1.fd)
-LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <10> not available
-(Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead on input line 143.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 154.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 154.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 154.
+(Font)              <5> on input line 151.
 
-contour: Using 16 copies for `@harshibar' on input line 154.
-contour: Using 16 copies for `The Problem with Productivity Apps' on input line 162.
-contour: Using 16 copies for `Obsidian App Review' on input line 162.
-contour: Using 16 copies for `Not-So-Minimal Desk Setup' on input line 162.
-contour: Using 16 copies for `YouTube' on input line 202.
-contour: Using 16 copies for `Gumroad' on input line 202.
-contour: Using 16 copies for `GitHub' on input line 209.
-contour: Using 16 copies for `Hackaday' on input line 209.
-contour: Using 16 copies for `r/python' on input line 209.
-contour: Using 16 copies for `r/programming' on input line 209.
+contour: Using 16 copies for `The Problem with Productivity Apps' on input line 185.
+contour: Using 16 copies for `Obsidian App Review' on input line 185.
+contour: Using 16 copies for `Not-So-Minimal Desk Setup' on input line 185.
+contour: Using 16 copies for `Text-Utils React App' on input line 235.
+contour: Using 16 copies for `Mousam App' on input line 242.
+contour: Using 16 copies for `YouTube' on input line 245.
+contour: Using 16 copies for `Gumroad' on input line 245.
+contour: Using 16 copies for `Natours' on input line 249.
+contour: Using 16 copies for `GitHub' on input line 252.
+contour: Using 16 copies for `Hackaday' on input line 252.
+contour: Using 16 copies for `r/python' on input line 252.
+contour: Using 16 copies for `r/programming' on input line 252.
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 4.08003pt, for example:
@@ -394,29 +407,36 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [1
 
-{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./trial.aux)
+{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Trying to load font information for TS1+qhv on input line 270.
+ (c:/texlive/2022/texmf-dist/tex/latex/tex-gyre/ts1qhv.fd
+File: ts1qhv.fd 2009/09/25 v1.2 font definition file for TS1/qhv
+)
+contour: Using 16 copies for `leetcode' on input line 270.
+contour: Using 16 copies for `Google Code Jam 2022' on input line 272.
+contour: Using 16 copies for `Accio-Wars' on input line 273.
 
-Package rerunfilecheck Warning: File `trial.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 4.08003pt, for example:
+(fancyhdr)                \setlength{\footskip}{4.08003pt}.
 
-Package rerunfilecheck Info: Checksums for `trial.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  E4A20694AB785100E26C1AEFBA388DCE;337.
+[2] (./trial.aux)
+Package rerunfilecheck Info: File `trial.out' has not changed.
+(rerunfilecheck)             Checksum: 3C99CB1F0074C25C0A76314637F04D98;468.
  ) 
 Here is how much of TeX's memory you used:
- 14607 strings out of 476029
- 254443 string characters out of 5794164
- 1911340 words of memory out of 5000000
- 34842 multiletter control sequences out of 15000+600000
- 541075 words of font info for 60 fonts, out of 8000000 for 9000
+ 14801 strings out of 476029
+ 257435 string characters out of 5794164
+ 1925340 words of memory out of 5000000
+ 35020 multiletter control sequences out of 15000+600000
+ 544864 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,76p,606b,475s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/fira/fir_i3ioen.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/fira/FiraMono-Regular.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qhvri.pfb>
-Output written on trial.pdf (1 page, 158023 bytes).
+ 75i,11n,76p,594b,608s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/fira/fir_i3ioen.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/fira/FiraMono-Regular.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qhvri.pfb>
+Output written on trial.pdf (2 pages, 163404 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 112 PDF objects out of 1000 (max. 8388607)
+ 89 compressed objects within 1 object stream
+ 8 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
