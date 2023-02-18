@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.18)  18 FEB 2023 19:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.18)  18 FEB 2023 21:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**e:/resumes/latext-test/trial
-(e:/resumes/latext-test/trial.tex
+**e:/resumes/latext-test/resume
+(e:/resumes/latext-test/resume.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-07> (c:/texlive/2022/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -311,8 +311,8 @@ Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+qhv on input line 112.
  (c:/texlive/2022/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
-)) (./trial.aux)
-\openout1 = `trial.aux'.
+)) (./resume.aux)
+\openout1 = `resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 143.
 LaTeX Font Info:    ... okay on input line 143.
@@ -347,9 +347,9 @@ LaTeX Font Info:    ... okay on input line 143.
 \everyMPtoPDFconversion=\toks29
 )
 Package hyperref Info: Link coloring OFF on input line 143.
- (./trial.out) (./trial.out)
+ (./resume.out) (./resume.out)
 \@outlinefile=\write3
-\openout3 = `trial.out'.
+\openout3 = `resume.out'.
 
 \c@mv@tabular=\count284
 \c@mv@boldtabular=\count285
@@ -408,32 +408,32 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 [1
 
 {c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for TS1+qhv on input line 270.
+LaTeX Font Info:    Trying to load font information for TS1+qhv on input line 282.
  (c:/texlive/2022/texmf-dist/tex/latex/tex-gyre/ts1qhv.fd
 File: ts1qhv.fd 2009/09/25 v1.2 font definition file for TS1/qhv
 )
-contour: Using 16 copies for `leetcode' on input line 270.
-contour: Using 16 copies for `Google Code Jam 2022' on input line 272.
-contour: Using 16 copies for `Accio-Wars' on input line 273.
+contour: Using 16 copies for `leetcode' on input line 282.
+contour: Using 16 copies for `Google Code Jam 2022' on input line 284.
+contour: Using 16 copies for `Accio-Wars' on input line 285.
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 4.08003pt, for example:
 (fancyhdr)                \setlength{\footskip}{4.08003pt}.
 
-[2] (./trial.aux)
-Package rerunfilecheck Info: File `trial.out' has not changed.
+[2] (./resume.aux)
+Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: 3C99CB1F0074C25C0A76314637F04D98;468.
  ) 
 Here is how much of TeX's memory you used:
  14801 strings out of 476029
- 257435 string characters out of 5794164
- 1925340 words of memory out of 5000000
+ 257452 string characters out of 5794164
+ 1924340 words of memory out of 5000000
  35020 multiletter control sequences out of 15000+600000
  544864 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,76p,594b,608s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,76p,595b,608s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/fira/fir_i3ioen.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/fira/FiraMono-Regular.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qhvri.pfb>
-Output written on trial.pdf (2 pages, 163404 bytes).
+Output written on resume.pdf (2 pages, 163414 bytes).
 PDF statistics:
  112 PDF objects out of 1000 (max. 8388607)
  89 compressed objects within 1 object stream
