@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.18)  15 MAR 2023 14:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.18)  26 APR 2023 19:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -386,23 +386,23 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 150.
 
-contour: Using 16 copies for `Backend Developer Intern' on input line 176.
-contour: Using 16 copies for `Github-repository' on input line 178.
-contour: Using 16 copies for `Code India Fellowship' on input line 185.
-contour: Using 16 copies for `Natours' on input line 229.
-contour: Using 16 copies for `Mousam App' on input line 237.
-contour: Using 16 copies for `Text-Utils React App' on input line 244.
-LaTeX Font Info:    Trying to load font information for TS1+qhv on input line 277.
+contour: Using 16 copies for `Backend Developer Intern' on input line 183.
+contour: Using 16 copies for `Github-repository' on input line 185.
+contour: Using 16 copies for `Code India Fellowship' on input line 192.
+contour: Using 16 copies for `Natours' on input line 235.
+contour: Using 16 copies for `Mousam App' on input line 243.
+contour: Using 16 copies for `Text-Utils React App' on input line 250.
+LaTeX Font Info:    Trying to load font information for TS1+qhv on input line 283.
 (c:/texlive/2022/texmf-dist/tex/latex/tex-gyre/ts1qhv.fd
 File: ts1qhv.fd 2009/09/25 v1.2 font definition file for TS1/qhv
 )
-contour: Using 16 copies for `leetcode' on input line 277.
-contour: Using 16 copies for `project1' on input line 280.
-contour: Using 16 copies for `project2' on input line 280.
-contour: Using 16 copies for `project1' on input line 280.
-contour: Using 16 copies for `project2' on input line 280.
-contour: Using 16 copies for `Google Code Jam 2022' on input line 282.
-contour: Using 16 copies for `Accio-Wars' on input line 283.
+contour: Using 16 copies for `leetcode' on input line 283.
+contour: Using 16 copies for `project1' on input line 286.
+contour: Using 16 copies for `project2' on input line 286.
+contour: Using 16 copies for `project1' on input line 286.
+contour: Using 16 copies for `project2' on input line 286.
+contour: Using 16 copies for `Google Code Jam 2022' on input line 288.
+contour: Using 16 copies for `Accio-Wars' on input line 289.
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
@@ -417,13 +417,13 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 Here is how much of TeX's memory you used:
  14794 strings out of 476029
  257313 string characters out of 5794164
- 1930340 words of memory out of 5000000
+ 1933340 words of memory out of 5000000
  35014 multiletter control sequences out of 15000+600000
  540845 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,76p,586b,475s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/fira/fir_i3ioen.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/fira/FiraMono-Regular.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qhvri.pfb>
-Output written on resume.pdf (1 page, 170766 bytes).
+Output written on resume.pdf (1 page, 171022 bytes).
 PDF statistics:
  110 PDF objects out of 1000 (max. 8388607)
  86 compressed objects within 1 object stream
